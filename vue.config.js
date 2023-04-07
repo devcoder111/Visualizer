@@ -6,9 +6,9 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   productionSourceMap: false,
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/visualizer/'
-      : '/visualizer/',
+  // publicPath: process.env.NODE_ENV === 'production'
+  //     ? '/visualizer/'
+  //     : '/visualizer/',
   // pages: {
   //   index: {
   //     entry: 'src/main.js',
